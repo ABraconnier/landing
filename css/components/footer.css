@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(247, 203, 163);
+  margin: 30px;
+  font-size: 50px;
+}
+
+.footer .fab{
+  margin: 10px;
+}

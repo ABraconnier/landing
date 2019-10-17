@@ -1,0 +1,42 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700|Raleway:200&display=swap');
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('components/banner.css');
+@import url('components/buttons.css');
+@import url('components/cards.css');
+@import url('components/footer.css');
+
+/* Utilities */
+  h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+body {
+  margin: 0;
+}
+
+p, a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+h1 {
+  font-weight: 700;
+  font-size: 65px;
+}
+
+h2, h3 {
+  font-weight: 500;
+}
+
+.container {
+  width: 800px;
+  margin: 5px auto
+}
