@@ -2,11 +2,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(247, 203, 163);
   margin: 30px;
   font-size: 50px;
 }
 
-.footer .fab{
+.fab{
   margin: 10px;
+  color: rgb(247, 203, 163);
+}
+
+.fab:hover {
+  color: black;
+  transition: 0.5s;
 }
